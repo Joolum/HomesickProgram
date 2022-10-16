@@ -1,3 +1,3 @@
 # HomesickProgram
 A gadget 2 record and witness my code ability...
-这是一条测试内容，看看能不能成功同步到repo
+16点01分，今天是10月16号，第二十届人大，我在测试一下
