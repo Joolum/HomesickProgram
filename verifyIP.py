@@ -1,8 +1,11 @@
-primitiveID = "10.162.119.237"
+primitiveIP = "10.162.119.237"
 import os
 import re
 
 ipconfig = os.popen('ipconfig').read()
-ip = re.search(r'10\.162\.\d{0,127}\.\d{0,255}', ipconfig).group()
+currentIP = re.search(r'10\.162\.\d{0,127}\.\d{0,255}', ipconfig).group()
 
-print(ip)
+if currentIP != primitiveIP :
+    print('IP Address has CHANGED! Analyzing domain name to a new IP...')
+else:
+    print('CurrentIP: ' + currentIP + ". It's same as primitive IP!")
