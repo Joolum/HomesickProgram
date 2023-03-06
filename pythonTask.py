@@ -7,7 +7,7 @@ def squre(side):
     print ('The squre side is %d' % squre_Side)
     print ('The squre area is %d' % squre_Area)
     print ('The squre girth is %d' % squre_Girth)
-
+    
 def exchangeNumber(firstNum,secondNum):
     print('First number is: %d. Second number is %d.' % (firstNum,secondNum))
     swap = firstNum
@@ -21,7 +21,7 @@ def triangle(s1,s2,s3):
     print('The triangle area is {:.2f}' .format(area))
 
 def judgeYear(year):
-    print((year % 4 == 0 & year % 100 != 0) || (year % 400 == 0))
+    print((year % 4 == 0 & year % 100 != 0) or (year % 400 == 0))
 
 def mathPractice(x):
     x = float(x)
@@ -29,8 +29,12 @@ def mathPractice(x):
     y = round(y, 2)
     print('y=', y)
 
-print(squre(5))
-print(triangle(3,4,5))
-print(exchangeNumber(2,5))
-print(judgeYear(2023))
+squre(5)
+print('-----------------------')
+triangle(3,4,5)
+print('-----------------------')
+exchangeNumber(2,5)
+print('-----------------------')
+judgeYear(2023)
+print('-----------------------')
 mathPractice(2)
