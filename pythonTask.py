@@ -28,7 +28,10 @@ def q3():
     print('Odd is: %d. Even is %d.' % (odd, even))
 
 print(q1(2))
+print('>>>>>>>>')
 q2(3, 4, 5)
+print('>>>>>>>>')
 q3()
+print('>>>>>>>>')
 for i in range(0, 3):
     print(q1(1))
